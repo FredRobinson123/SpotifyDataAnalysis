@@ -8,7 +8,8 @@ local_css("style.css")
 
 Types_of_Features = ("acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "tempo", "valence")
 
-st.title("Spotify Features App")
+st.title("Freddie's Spotify App - analyse artists by their song attributes")
+st.title("This dashboard pulls data from the Spotify API. The popularity attribute is set on the x-axis")
 Name_of_Artist = st.text_input("Artist Name")
 Name_of_Feat = st.selectbox("Feature", Types_of_Features)
 button_clicked = st.button("OK")
